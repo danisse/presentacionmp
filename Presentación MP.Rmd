@@ -1,0 +1,147 @@
+---
+title:
+author: 
+date: 
+output:
+  xaringan::moon_reader:
+    css: ["default", "fc-fonts", "shinobi"]
+    nature:
+      highlightLines: true
+    transition: slide
+    site:distill:: distill_website
+---
+```{r xaringan-title-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-animated-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+```
+
+background-image: url(Logo.png)
+background-position: 50% 80%
+background-size: 50%
+class:center
+#Presentación miniproyectos
+<center>
+<b>
+##Analytics Research Lab
+</b>
+</center>
+<center>
+Viernes, 18 de septiembre del 2020
+</b>
+</b>
+
+---
+class: center, animated slideInRight fadeOutLeft
+
+background-image: url(Equipo.png)
+background-position: 50% 80%
+background-size: 70%
+#Equipo de trabajo
+---
+class: left, inverse, animated zoomOutDown
+
+background-image: url(retencion.png)
+background-position: 50% 90%
+background-size: 40%
+
+# Problema de investigación: La retención de clientes
+<br/>
+
+--
+
+* <font size="5">Conjunto de estrategias para reducir la pérdida de clientes.</font>
+<br/>
+
+--
+
+* <font size="5">Trata de fidelizar a los clientes no solo dándole lo que esperan sino superando sus expectativas.</font>
+<br/><br/>
+
+--
+
+<font size="5">"Es tanto una medida de la lealtad de los clientes como de la capacidad que tiene la empresa para mantener clientes satisfechos por el buen servicio y la calidad del producto vendido."</font>
+
+####- Anónimo
+  
+---
+class: left, animated zoomInRight zoomOutRight
+
+background-image: url(https://media1.tenor.com/images/0edd53dd2110147b786329c2e24fb1d0/tenor.gif?itemid=5795910)
+background-position: 60% 95%
+background-size: 25%
+
+#Sistema de recomendaciones
+<br/>
+
+<font size="5"> Sistemas de software que permiten a un usuario obtener propuestas de productos con base en sus gustos.</font> 
+
+- <font size="5">Funcionan con base en:</font>
+
+  - <font size="5">Valoraciones que los usuarios realizan sobre los productos de una plataforma.</font>
+
+  - <font size="5">Descripciones de los productos o del perfil del usuario.</font>
+<br/><br/>
+
+<font size="5">Es posible diseñar este tipo de sistemas con el paquete 
+<a href="https://cran.r-project.org/web/packages/recommenderlab/index.html"> recomenderlab</a> de R. </font> 
+<br/>
+
+<font size="5"> Este paquete nos permitirá enlazar el programa con la plataforma de ***MovieLens***, la cual es una página web que proporciona bases de datos de peliculas evaluadas por usuarios. Con esta librería es posible crear funciones que agrupan peliculas de generos similares en clusters y con ello, brindar una recomendación al usuario que se quiera analizar.
+<br/>
+
+Para acceder al código haga click <a href="https://github.com/Kelly1202/Miniproyecto.git"> aquí </font> </a>
+
+
+---
+class: left, animated fadeInDownBig zoomOutRight
+
+# Beneficios y principales industrias de aplicación
+<br/>
+
+
+<font size="5"> Esta herramienta puede ser empleada en diversos ámbitos diferentes al anterior, tales como: </font>
+
+  * <font size="5">Empresas de ventas online como MercadoLibre
+  * Tiendas virtuales de ropa
+  * Turismo
+  * Restaurantes
+  * Empresas de E-learning </font>
+
+<font size="5"> Su aplicación traerá beneficios como:</font>
+
+  * <font size="5">Fidelización de clientes
+  * Mejora de la experiencia del usuario
+  * Permitirá un seguimiento a la satisfacción
+  * Posicionamiento en el mercado </font>
+
+
+---
+class: center, middle, inverse, animated flipInX
+# Bibliografía
+<b>
+<center>
+<div style="text-align: justify">
+CARO MARTÍNEZ, M., 2017. SISTEMAS DE RECOMENDACIÓN BASADOS EN TÉCNICAS DE PREDICCIÓN DE ENLACES PARA JUECES EN LÍNEA. [ebook] Madrid, pp.1 - 24.
+</div>
+</center>
+
+<b>
+<center>
+<div style="text-align:justify">
+Shopify. 2020. Definición Retención De Clientes - ¿Qué Es Retención De Clientes?. [online] Available at: https://es.shopify.com/enciclopedia/retencion-de-clientes </div>
+</center>
+
+---
+layout:false
+background-image: url(https://media.giphy.com/media/TJrS7r0f6SOthGTiPe/giphy.gif)
+background-position: 50% 50%
+class: center, animated rotateIn
+<b>
+<center>
+#¡Muchas gracias!
+
+
+
